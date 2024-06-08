@@ -2,9 +2,6 @@
 
 This project uses Azure Machine Learning's AutoML and HyperDrive to classify iris flower species based on their features. The primary objective is to find the best machine learning model for this classification task, and then deploy that model as a service endpoint.
 
-## Project Set Up and Installation
-*OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
-
 ## Dataset
 
 ### Overview
@@ -67,7 +64,6 @@ To improve the model, we can experiment with longer timeout to let the AutoML tr
 ![Best Model Details](./screenshots/AutoML_BestModel.png)
 
 ## Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
 The model chosen for hyperparameter tuning is a Random Forest Classifier. The hyperparameters "--n_estimators" and "--max_depth" were selected for tuning using Random Sampling to explore different model complexities.
 
